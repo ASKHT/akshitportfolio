@@ -20,12 +20,12 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/Shoppiz.png";
+import projectImage2 from "./assets/projects/Swipstory.png";
+import projectImage3 from "./assets/projects/Ideabook.png";
+import projectImage4 from "./assets/projects/jobs.png";
+import projectImage5 from "./assets/projects/photoeditor.png";
+import projectImage6 from "./assets/projects/rockpapergame.png";
 
 // Logos
 export const logos = {
@@ -51,9 +51,9 @@ Let's connect and build something amazing together!`,
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
+  linkdein: "https://www.linkedin.com/in/akshit-s-b1b28821b/",
+  github: "https://github.com/ASKHT",
+  twitter: "https://twitter.com/sharma_aks96757",
   instagram: "https://www.instagram.com/",
 };
 
@@ -107,58 +107,52 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Shoppiz",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `This is an e-commerce platform for clothes. It includes various features including sorting, filtering, payment via Razorpay, and order details, as well as customer details.`,
+    techstack: "React,Tailwind css, JavaScript,node js, express.js,jwt,razorpayapi,MongoDb,Reduxtoolkit",
+    previewLink: "https://shoppiz-frontend.vercel.app/",
+    githubLink: "https://github.com/ASKHT/ShoppizFrontend",
   },
   {
-    title: "Project title 2",
+    title: "Swipstory",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `It is a social media platform where you can share your posts, and others can view them. You can also edit your posts, and others can like or bookmark them.`,
+   techstack: "React,Modular css, JavaScript,node js, express.js,jwt,MongoDb,Reduxtoolkit",
+    previewLink: "https://swipstory.netlify.app/",
+    githubLink: "https://github.com/ASKHT/akshits349-gmail.com_cuvette_final_evaluation_oct",
   },
   {
-    title: "Project title 3",
+    title: "Ideabook",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Welcome to Pocket Notes, your innovative idea organization platform designed to streamline your note-taking experience. With Pocket Notes, you can effortlessly organize your thoughts, brainstorm ideas, and manage tasks efficiently.`,
+    techstack: "React,JavaScript,localstorage",
+    previewLink: "https://pocket-notes-wheat.vercel.app/",
+    githubLink: "https://github.com/ASKHT/Pocket-Notes",
   },
   {
-    title: "Project title 4",
+    title: "jobsterz",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Welcome to JobSeeker, your one-stop platform for finding job opportunities across different industries. Browse and search for jobs easily, check out detailed job descriptions, Our platform is designed to make your job search experience simple and hassle-free.`,
+    techstack: "MogoDb,jwt,react nodejs,expressjs,modularcss,HTML",
+    previewLink: "https://jobsterz.netlify.app/",
+    githubLink: "https://github.com/ASKHT/jobsfrontend",
   },
   {
-    title: "Project title 5",
+    title: "Photo Editor",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `A lightweight photo editor built with JavaScript for quick and easy image adjustments.`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://askht.github.io/Phot_Editor_using_JS/",
+    githubLink: "https://github.com/ASKHT/Phot_Editor_using_JS",
   },
   {
-    title: "Project title 6",
+    title: "Rock paper scissor game",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Web Based Stone Paper Scissor game implementation.`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://askht.github.io/cuvett-rock-paper-game/",
+    githubLink: "https://github.com/ASKHT/cuvett-rock-paper-game",
   },
 ];
 
